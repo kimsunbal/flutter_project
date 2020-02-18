@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         title:
             Text('Dice', style: TextStyle(color: Colors.white, fontSize: 25.0)),
       ),
-      body: buildDice(),
+      body: SafeArea(child: buildDice()),
     ));
   }
 
